@@ -4,11 +4,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 import './index.css';
 import App from './App';
+import Form from './components/Form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
